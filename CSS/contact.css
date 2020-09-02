@@ -1,0 +1,361 @@
+body {
+    padding-top: 800px;
+    height: 100%;
+    margin: 0;
+	font-family: 'Poppins', sans-serif;
+    
+    background: #060013;
+   
+	
+}
+
+
+.site-logo {
+	padding: 0 0;
+	max-width: 25%;
+	display: inline-block;
+	float: left;
+}
+
+.set-bg {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.header-section {
+	background: #000000;
+	padding: 15px 0px;
+	border-bottom: 2px solid #25ae88;
+	width: 100%;
+	left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    position: fixed;
+    
+}
+
+.header-btns {
+	position: absolute;
+	padding: 30px;
+	display: flex;
+	left: 85%;
+	width: 390px;
+	top: -3px;
+	margin-left: -181px;
+}
+
+.header-right {
+	position: relative;
+}
+
+
+.site-btn {
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	min-width: 110px;
+	padding: 14px 25px;
+	border-radius: 0px;
+	background: #556080;
+	cursor: pointer;
+    text-align: center;
+    margin: 4px;
+}
+
+.site-btn.sb-c1 {
+	background: #7fabda;
+}
+
+.site-btn.sb-c2 {
+	background: #25ae88;
+}
+
+.dropdown {
+	position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #292525;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(233, 173, 173);color: black}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .site-btn {background-color: #556080;}
+
+.main-menu {
+	list-style: none;
+	display: inline-block;
+	margin-left: 300px;
+	padding-top: 30px;
+}
+
+.main-menu li {
+	display: inline;
+}
+
+.main-menu li a {
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	position: relative;
+	padding: 4px 14px;
+	margin-left: 15px;
+	font-weight: 500;
+}
+
+.main-menu li.active a {
+	background: #556080;
+}
+
+.hs-item {
+	height: 948px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: right;
+	padding-top: 0px;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:5000px;
+  position: absolute;
+  top: 140px;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+/*---------------------
+  Footer Section
+-----------------------*/
+
+.footer-section {
+    padding-top: 0px;
+    padding-bottom: 200px
+	height:70px;
+	background: #171b26;
+    overflow: hidden;
+}
+
+.footer-img img {
+    padding-top: 20px;
+	height: 100px;
+	width: 250px;
+	float: left;
+}
+
+.footer-nav {
+    padding: 5px 0;
+    padding-right: 30px;
+	position: relative;
+	float: right;
+}
+
+.footer-nav ul {
+	list-style: none;
+}
+
+.footer-nav ul li {
+	display: inline;
+}
+
+.footer-nav ul li a {
+	display: inline-block;
+	color: #51555d;
+	margin-left: 40px;
+	font-size: 16px;
+}
+
+.footer-copy{ 
+	text-align: center;
+    clear: both;
+    margin: 10px;
+    color: ivory;
+}
+
+/*------------------
+  Page
+---------------------*/
+
+.page-top-section {
+	height: 700px;
+	text-align: center;
+	padding-top: 50px;
+	max-width:5000px;
+	position: absolute;
+	top: 100px;
+    color: khaki;
+    margin-left: -100px;
+	
+	
+}
+
+.page-top-section h2 {
+	padding-top: 5px;
+	font-size: 60px;
+	color: rgb(187, 166, 166);
+	font-weight: 600;
+	text-decoration: underline; 
+	text-decoration-color: rgb(9, 179, 179);
+}
+
+
+.section-title{
+	margin-bottom: 87px;
+	text-align: center;
+	position: relative;
+	color: khaki;
+}
+
+.section-title h2{
+	font-size: 48px;
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-color:  rgb(9, 179, 179);
+	margin: 20px;
+}
+
+.section-title p{
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 0;
+	line-height: normal;
+}
+
+
+.section{
+	padding-top: 500px;
+	padding-bottom: 100px;
+}
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  .bg-image {
+	/* The image used */
+	background-image: image(img/img1.jpg);
+  
+	
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .para{
+	  padding-left: 20px;
+	  padding-right: 40px;
+	  padding-top: 0px;
+	  font-size: 30px;
+	  color: ivory;
+  }
+
+ 
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(190, 4, 4);
+   font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #55a30c;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #060013;
+    padding: 100px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    padding: 50px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
