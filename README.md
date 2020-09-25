@@ -1,2 +1,2 @@
 # project-webdev
-Cotliers website development
+Webproject development for cotliers
